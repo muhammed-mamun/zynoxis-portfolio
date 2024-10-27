@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BASE  */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-zinc-100 text-zinc-900 ;
+}
+
+/* Components */
+
+.headline{
+    @apply max-w-max;
+    background: -webkit-linear-gradient(5deg, #020476bd, #020476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
